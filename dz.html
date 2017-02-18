@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>урок_2</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+
+var xhr = new XMLHttpRequest();
+xhr.open('GET', 'https://dl.dropboxusercontent.com/u/53408179/phones.json', true);
+xhr.send();
+var user = JSON.stringify(xhr);
+console.log( user );
+
+
+
+
+
+
+
+
+
+
+
+
+/*var str = (user, function(key, value)  {
+if (key == 'name') return undefined;
+return value;
+});*/
+ 
+
+//
+
+</script>
+
+<script>
+    init();
+  </script>
+</body>
+</html>
